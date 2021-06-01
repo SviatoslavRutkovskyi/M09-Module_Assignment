@@ -19,3 +19,12 @@ addEventListener("click", function (event) {
     dot.style.top = (event.pageY - 4) + "px";
     document.body.appendChild(dot);
 });
+addEventListener("mouseup", function (event) {
+    if (event.button == 1) {
+        var gdot = document.createElement("div");
+        gdot.className = "greenDot";
+        gdot.style.left = (event.pageX - 4) + "px";
+        gdot.style.top = (event.pageY - 4) + "px";
+        document.body.appendChild(gdot);
+    }
+});

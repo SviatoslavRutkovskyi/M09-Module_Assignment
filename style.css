@@ -10,3 +10,10 @@
     background: blue;
     position: absolute;
 }
+.greenDot {
+    height: 6px;
+    width: 6px;
+    border-radius: 3px; /* rounds corners */
+    background: lime;
+    position: absolute;
+}
